@@ -1,4 +1,4 @@
-// A
+// i
 var count = 10
 while ( count < width ) {
 strokeWeight(3);
@@ -6,7 +6,7 @@ line( count, 0, count, height);
 count = count + 10;
 }
 
-// B
+// ii
 
 var count = 10
 while ( count < width ) {
@@ -15,7 +15,7 @@ line( 0, count, width, count);
 count = count + 10;
 }
 
-//C
+// iii
 var count = 10
 while ( count < width ) {
 strokeWeight(1);
@@ -24,7 +24,7 @@ ellipse( width/2, height/2, count, count);
 count = count + 10;
 }
 
-// D
+// iv
 var count = 10
 while ( count < width ) {
   strokeWeight(1);
