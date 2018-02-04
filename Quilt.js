@@ -1,21 +1,24 @@
- //zelda symbol
+ //Triforce symbol
+  
+//Triforce symbol
   
 function yourPatch(x, y) {
   noFill();
   stroke(238);
-  rect(x, y, 300, 300);
+  rect(x, y, 100, 100);
   colorMode(HSB);
-  background(0);
+
 
   noStroke();
   fill(45, 100, 100);  
-  triangle(x+150, y+100, x+100, y+200, x+200, y+200); // triangle 1
+  triangle(x+50, y+0, x+0, y+75, x+100, y+75); // triangle 1
 
   noStroke();
-  fill(45, 100, 0); 
-  triangle(x+150, y+200, x+125, y+150, x+175, y+150);// triangle 2
+  fill(45, 0, 100); 
+  triangle(x+50, y+75, x+25, y+37.5, x+75, y+37.5);// triangle 2
  
+
 }
 
 background(255);
-yourPatch(0, 0); // draw patch at upper-left
+yourPatch(0,0 ); // draw patch at upper-left
