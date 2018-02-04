@@ -1,8 +1,6 @@
- //Triforce symbol
-  
 //Triforce symbol
   
-function yourPatch(x, y) {
+function Triforce(x, y) {
   noFill();
   stroke(238);
   rect(x, y, 100, 100);
@@ -21,4 +19,4 @@ function yourPatch(x, y) {
 }
 
 background(255);
-yourPatch(0,0 ); // draw patch at upper-left
+Triforce(0,0 ); // draw patch at upper-left
