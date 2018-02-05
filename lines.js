@@ -36,9 +36,20 @@ while ( count < width ) {
 // v
 
 var count = 1
-var center  = 170
-while (count < 170 ) {
 
-  line( center + count, count , center - count, count )
-count = count +10
+var count = 0
+var center  = 170
+var spacing = 10
+var length = 0
+
+while (count <= 30 ) {
+	line( center+length , spacing , center-length , spacing)
+	count = count +1
+  spacing=spacing+10
+  if(count<=15){
+  	length=length+10
+  }
+  else{
+    length=length-10
+  }
 }
