@@ -32,3 +32,13 @@ while ( count < width ) {
   line( width/2, 0, count, width);
   count = count + 10;
 }
+
+// v
+
+var count = 1
+var center  = 170
+while (count < 170 ) {
+
+  line( center + count, count , center - count, count )
+count = count +10
+}
