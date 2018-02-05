@@ -53,3 +53,14 @@ while (count <= 30 ) {
     length=length-10
   }
 }
+
+// vi
+
+var count = 5
+var y = 0
+
+while ( count < width ) {
+  line( count, 0, count, y);
+  count = count + 5;
+  y = y + 10;
+}
